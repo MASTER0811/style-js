@@ -3,7 +3,7 @@
 ## Getting Started
 Insert `<script>` Link Here
 ```html
-<script src="https://cdn.jsdelivr.net/gh/MASTER0811/style-js/main.js" defer></script>
+<script src="//cdn.jsdelivr.net/gh/MASTER0811/style-js/main.js" type="text/javascript"></script>
 ```
 
 
