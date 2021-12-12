@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    width: 100%;
+    height: 100vh;
+    /* background-position: ; */
+}
+div{
+    color: #fff;
+}
+</style>
+<body>
+    <!-- <div ws-background="#edf2fd" ws-width="250px" ws-height="250px">Hello world</div> -->
+    <section class="link_" ws-background="url(https://cdn.pixabay.com/photo/2021/12/07/14/00/river-6853339_960_720.jpg)">
+
+        <div id="write" ws-background="#ffff00">Hello Pictures</div>
+    </section>
+
+    <script src="//cdn.jsdelivr.net/gh/MASTER0811/style-js/main.js"></script>
+    <script>
+        background(".link_","cover","center center","no-repeat")
+        background("#write")
+    </script>
+</body>
+</html>
